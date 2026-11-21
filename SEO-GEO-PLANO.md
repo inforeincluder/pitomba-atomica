@@ -12,12 +12,12 @@ Base: GitHub Pages, URL pública atual em subdiretório. Idioma/mercado inicial:
 - Metadados básicos, canonical, Open Graph e Twitter summary no HTML inicial.
 - JSON-LD Organization e WebSite.
 - robots.txt com OAI-SearchBot permitido e GPTBot bloqueado; são controles independentes.
-- Sitemap XML inicial com a página inicial.
+- Sitemap XML com seis URLs editoriais.
 - Favicon SVG.
 
 ## Limitações atuais
 - O site ainda está hospedado em github.io; domínio próprio é recomendável antes de escalar marca e backlinks.
-- Só existe uma URL pública de conteúdo. As coleções não possuem páginas próprias e não há fichas de obra indexáveis.
+- Existem agora seis URLs editoriais: início, sobre, índice de coleções e três páginas de pesquisa de coleção. Ainda não há fichas de obra indexáveis.
 - Não há imagens sociais raster (Open Graph 1200×630), galeria real, dados de produto, checkout, política de frete/devolução, contato confirmado ou captura de leads.
 - Não existe negócio local com endereço público confirmado. Não implementar LocalBusiness nem inventar presença física/Google Business Profile.
 - Sitemap será expandido quando houver URLs reais e estáveis.
@@ -77,4 +77,4 @@ Base: GitHub Pages, URL pública atual em subdiretório. Idioma/mercado inicial:
 - Bing IndexNow: https://www.bing.com/webmasters/help/indexnow-0z209wby
 - OpenAI crawler documentation: https://developers.openai.com/api/docs/bots
 
-Status: base técnica inicial implementada; arquitetura editorial, conteúdo, domínio próprio, analytics e integrações de comércio permanecem pendentes.
+Status em 21/11/2026: base técnica e seis páginas editoriais publicadas no repositório. Acesso público após deploy, indexação, domínio próprio, Search Console/Bing, imagens finais, analytics e integrações comerciais ainda precisam de validação ou implementação.
