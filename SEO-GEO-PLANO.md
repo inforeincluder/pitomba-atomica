@@ -11,7 +11,7 @@ Base: GitHub Pages, URL pública atual em subdiretório. Idioma/mercado inicial:
 ## Estado técnico implementado
 - Metadados básicos, canonical, Open Graph e Twitter summary no HTML inicial.
 - JSON-LD Organization e WebSite.
-- robots.txt com OAI-SearchBot permitido e GPTBot bloqueado; são controles independentes.
+- robots.txt foi removido: em um GitHub Pages de projeto sob `/pitomba-atomica/`, o arquivo fica em subcaminho e não controla o robots.txt do host (`https://inforeincluder.github.io/robots.txt`). A configuração dos crawlers será implementada após domínio próprio, na raiz desse domínio.
 - Sitemap XML com seis URLs editoriais.
 - Favicon SVG.
 
@@ -42,8 +42,8 @@ Base: GitHub Pages, URL pública atual em subdiretório. Idioma/mercado inicial:
 - [ ] Considerar domínio próprio e redirecionamento canônico antes de acumular backlinks.
 
 ## GEO / busca por IA
-- [ ] Permitir OAI-SearchBot se a prioridade for aparecer na busca do ChatGPT.
-- [ ] Decisão separada sobre GPTBot: bloqueado nesta configuração para não autorizar rastreamento voltado a treinamento; rever se a política de licenciamento mudar.
+- [ ] Após configurar domínio próprio, publicar robots.txt na raiz do domínio permitindo OAI-SearchBot.
+- [ ] Após configurar domínio próprio, decidir separadamente se GPTBot será bloqueado para não autorizar rastreamento voltado a treinamento; essa escolha não substitui a permissão do OAI-SearchBot.
 - [ ] Manter páginas com definições claras, autoria institucional, fatos verificáveis, texto visível e links internos.
 - [ ] Publicar conteúdo editorial original: processos, materiais, dimensões, critérios de curadoria e guias de composição, sem produzir páginas genéricas em escala.
 - [ ] Monitorar citações/visibilidade em ChatGPT, Gemini, Perplexity e Copilot manualmente; não prometer ranking nem citação.
