@@ -27,15 +27,22 @@ As referências visuais aprovadas para estudo apontam para uma ilustração edit
 
 Essas técnicas são variações dentro de uma mesma atitude visual, não estilos obrigatoriamente misturados em uma única obra.
 
-## Paleta em exploração
-- Azul intenso/cobalto.
-- Vermelho ou coral.
-- Amarelo vivo.
-- Verde.
-- Creme/branco quente.
-- Preto ou marrom muito escuro para linhas e acentos.
+## Paleta institucional do site — referência aprovada em novembro de 2026
 
-Não fixar códigos hexadecimais ainda. Cada obra deve usar uma paleta curta e deliberada; a coleção como um todo precisa de ritmo cromático.
+A imagem de referência enviada pelo usuário define a paleta cromática institucional do site. Aplicar em todas as páginas, componentes e estados da interface:
+
+| Cor | Código | Função |
+|---|---|---|
+| Azul elétrico | #0875D1 | Cor estrutural e fundo predominante |
+| Verde intenso | #00A878 | Blocos de destaque e áreas secundárias |
+| Amarelo | #FFE500 | Chamadas, acentos e pontos de atenção |
+| Rosa pele | #EFC5B8 | Superfícies e cartões |
+| Verde claro | #E6F0C6 | Superfícies alternativas |
+| Preto azulado | #101820 | Texto, linhas e contornos |
+
+O azul é a base do sistema. Amarelo, verde, rosa e verde claro entram em áreas controladas, sem competir simultaneamente. O preto azulado assegura contornos e legibilidade. Evitar retornar a uma interface predominantemente branca ou creme.
+
+**Importante:** esta paleta é a referência institucional do site, não uma restrição obrigatória para todas as obras. Os pôsteres podem adotar paletas próprias, desde que mantenham a gramática visual da marca e sejam curados em conjunto para formar um catálogo coerente.
 
 ## Identidade da marca
 - Tipografia expressiva, com personalidade editorial e boa legibilidade.
