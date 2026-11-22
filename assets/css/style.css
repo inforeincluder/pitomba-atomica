@@ -70,3 +70,27 @@ footer{background:var(--blue);border-color:var(--line);color:var(--ink)}
 .hero .round-link{color:#fff;border-color:#fff}
 .collection-card .card-meta span:last-child{color:#fff}
 .status-note{color:var(--ink);background:var(--yellow)}
+
+/* Ajuste de direção: fundo branco como base institucional */
+:root{--paper:#FFFFFF;--ink:#101820;--blue:#0875D1;--red:#EFC5B8;--acid:#E6F0C6;--yellow:#FFE500;--green:#00A878;--peach:#EFC5B8;--mint:#E6F0C6;--line:rgba(16,24,32,.22)}
+html,body{background:#fff;color:var(--ink)}
+.topline,.site-header,.hero,.collections,footer{background:#fff;color:var(--ink)}
+.topline,.site-header,footer{border-color:var(--line)}
+.topline,.site-header,.site-header nav a,.wordmark,.footer-mark{color:var(--ink)}
+.hero,.collections{color:var(--ink)}
+.hero .eyebrow,.hero-index,.side-note,.hero-text,.section-head .eyebrow,.section-intro,
+.collection-card h3,.collection-card p,.card-meta{color:var(--ink)}
+.hero .round-link{color:var(--ink);border-color:var(--ink)}
+.hero-text,.section-intro,.collection-card p{color:#424B52}
+.card-meta span:last-child{color:#667078}
+.status-note{color:var(--ink);background:var(--yellow)}
+.ticker{background:var(--blue);color:#fff}
+.ticker span{color:var(--yellow)}
+.manifesto{background:var(--green);color:var(--ink)}
+.manifesto-mark{color:var(--yellow)}
+.manifesto-text{color:var(--ink)}
+.manifesto .text-link{color:var(--ink);border-color:var(--ink)}
+.newsletter{background:#fff;color:var(--ink)}
+.button-link{background:var(--yellow);color:var(--ink);border:1px solid var(--ink)}
+.site-header nav .nav-contact{background:var(--yellow);color:var(--ink);border-color:var(--ink)}
+.art-one{background:var(--peach)}.art-two{background:var(--mint)}.art-three{background:var(--yellow)}
