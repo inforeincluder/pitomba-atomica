@@ -33,14 +33,15 @@ A imagem de referência enviada pelo usuário define a paleta cromática institu
 
 | Cor | Código | Função |
 |---|---|---|
-| Azul elétrico | #0875D1 | Cor estrutural e fundo predominante |
+| Branco | #FFFFFF | Fundo predominante e base de leitura |
+| Azul elétrico | #0875D1 | Navegação visual, faixas e destaques estruturais |
 | Verde intenso | #00A878 | Blocos de destaque e áreas secundárias |
 | Amarelo | #FFE500 | Chamadas, acentos e pontos de atenção |
 | Rosa pele | #EFC5B8 | Superfícies e cartões |
 | Verde claro | #E6F0C6 | Superfícies alternativas |
 | Preto azulado | #101820 | Texto, linhas e contornos |
 
-O azul é a base do sistema. Amarelo, verde, rosa e verde claro entram em áreas controladas, sem competir simultaneamente. O preto azulado assegura contornos e legibilidade. Evitar retornar a uma interface predominantemente branca ou creme.
+O branco é o fundo predominante em todas as páginas, garantindo leveza e legibilidade. Azul, amarelo, verde, rosa e verde claro aparecem em faixas, cartões, ilustrações, botões e detalhes. O preto azulado assegura contornos e legibilidade. A interface deve ser branca, mas não monocromática.
 
 **Importante:** esta paleta é a referência institucional do site, não uma restrição obrigatória para todas as obras. Os pôsteres podem adotar paletas próprias, desde que mantenham a gramática visual da marca e sejam curados em conjunto para formar um catálogo coerente.
 
