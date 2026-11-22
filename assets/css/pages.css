@@ -1,1 +1,14 @@
 .page-shell{max-width:1120px;margin:auto;padding:58px 7% 90px}.breadcrumbs{font:10px "DM Mono",monospace;letter-spacing:1px;color:#666;margin-bottom:42px}.breadcrumbs a,.page-nav a{color:inherit;text-decoration:none}.page-title{font-size:clamp(48px,8vw,92px);line-height:.9;letter-spacing:-5px;margin:18px 0 25px}.page-title em{font-family:Georgia,serif;font-weight:400}.page-lede{font-size:18px;line-height:1.65;max-width:680px;color:#45433e}.page-label{font:10px "DM Mono",monospace;letter-spacing:1.3px}.page-rule{border:0;border-top:1px solid rgba(23,23,23,.2);margin:48px 0}.page-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.page-tile{padding:25px;border:1px solid rgba(23,23,23,.2);min-height:220px;display:flex;flex-direction:column;justify-content:space-between;color:#171717;text-decoration:none;transition:background .2s,transform .2s}.page-tile:hover{background:#e9d8bd;transform:translateY(-3px)}.page-tile small{font:10px "DM Mono",monospace;letter-spacing:1px}.page-tile h2{font-size:30px;line-height:.95;letter-spacing:-1px;margin:28px 0 10px}.page-tile p{font-size:13px;line-height:1.5;color:#555}.page-nav{display:flex;gap:22px;flex-wrap:wrap;margin-top:36px;font-size:13px}.page-nav a{text-decoration:underline;text-underline-offset:4px}.page-note{padding:18px 20px;background:#e9d8bd;font-size:13px;line-height:1.6;max-width:760px}.page-footer{border-top:1px solid rgba(23,23,23,.2);padding:22px 7%;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font:10px "DM Mono",monospace;letter-spacing:.7px}.page-footer a{color:inherit;text-decoration:none}.page-section h2{font-size:28px;letter-spacing:-1px;margin:34px 0 10px}.page-section p,.page-section li{max-width:760px;font-size:15px;line-height:1.75;color:#45433e}.page-section ul{padding-left:20px}@media(max-width:700px){.page-shell{padding:42px 7% 70px}.page-grid{grid-template-columns:1fr}.page-title{letter-spacing:-3px}.page-lede{font-size:16px}.page-footer span:nth-child(2){display:none}}
+
+/* Sistema cromático global — páginas editoriais */
+.page-shell{background:var(--blue);color:var(--ink)}
+.breadcrumbs,.page-label,.page-lede,.page-section p,.page-section li{color:var(--ink)}
+.page-rule{border-color:var(--line)}
+.page-tile{background:var(--peach);border:2px solid var(--ink);color:var(--ink)}
+.page-tile:nth-child(2){background:var(--mint)}
+.page-tile:nth-child(3){background:var(--yellow)}
+.page-tile p{color:var(--ink)}
+.page-tile:hover{background:var(--green)}
+.page-note{background:var(--yellow);color:var(--ink);border:1px solid var(--ink)}
+.page-footer{background:var(--blue);border-color:var(--line);color:var(--ink)}
+.page-footer a{color:var(--ink)}
