@@ -19,3 +19,15 @@
 .breadcrumbs,.breadcrumbs a,.page-label,.page-title,.page-lede,.page-section h2,.page-section p,.page-section li,.page-nav,.page-nav a{color:#fff}
 .page-note{color:#101820}
 .page-footer,.page-footer a{color:#fff}
+
+/* Páginas editoriais: branco como fundo padrão; paleta nos componentes */
+.page-shell{background:#fff;color:var(--ink)}
+.breadcrumbs,.breadcrumbs a,.page-label,.page-title,.page-lede,.page-section h2,.page-section p,.page-section li,.page-nav,.page-nav a{color:var(--ink)}
+.page-lede,.page-section p,.page-section li{color:#424B52}
+.page-rule{border-color:var(--line)}
+.page-tile{background:var(--peach);border:1px solid var(--ink);color:var(--ink)}
+.page-tile:nth-child(2){background:var(--mint)}.page-tile:nth-child(3){background:var(--yellow)}
+.page-tile p{color:var(--ink)}.page-tile:hover{background:var(--green)}
+.page-note{background:var(--yellow);color:var(--ink);border:1px solid var(--ink)}
+.page-footer{background:#fff;border-color:var(--line);color:var(--ink)}
+.page-footer a{color:var(--ink)}
