@@ -1,1 +1,60 @@
 :root{--paper:#f4f0e8;--ink:#171717;--blue:#123fbd;--red:#f05b43;--acid:#c5df43;--yellow:#f3d44f;--line:rgba(23,23,23,.2)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Space Grotesk",Arial,sans-serif}.topline{display:flex;justify-content:space-between;padding:10px 4.5%;font:10px "DM Mono",monospace;letter-spacing:1.1px;border-bottom:1px solid var(--line)}.site-header{height:100px;padding:0 4.5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.wordmark{font-size:25px;line-height:.78;font-weight:700;letter-spacing:-2px;color:var(--ink);text-decoration:none}.wordmark span{color:var(--red)}.wordmark .lab{font:11px "DM Mono",monospace;letter-spacing:0}.site-header nav{display:flex;gap:36px;align-items:center}.site-header nav a{color:var(--ink);text-decoration:none;font-size:13px}.site-header nav .nav-contact{border:1px solid var(--ink);padding:12px 17px;border-radius:30px}.hero{min-height:670px;padding:70px 8% 55px;display:grid;grid-template-columns:1fr 1fr;align-items:center;position:relative;overflow:hidden}.eyebrow{font:10px "DM Mono",monospace;letter-spacing:1.3px}.dot{display:inline-block;width:8px;height:8px;background:var(--red);border-radius:50%;margin-right:8px}.hero h1{font-size:clamp(64px,8vw,112px);line-height:.83;letter-spacing:-8px;margin:35px 0 28px;font-weight:600}.hero h1 em,.section-head h2 em,.manifesto h2 em,.newsletter h2 em{font-family:Georgia,serif;font-weight:400}.hero-text{max-width:350px;font-size:16px;line-height:1.55;color:#45433e}.round-link{display:inline-flex;align-items:center;gap:25px;margin-top:30px;padding:13px 18px;border:1px solid var(--ink);border-radius:40px;text-decoration:none;color:var(--ink);font-size:13px}.round-link span{font-size:20px}.hero-art{position:relative;max-width:520px;margin:auto}.hero-art svg{width:100%;height:auto;display:block;transform:rotate(2deg)}.art-stamp{position:absolute;z-index:2;top:4%;left:0;background:var(--acid);width:64px;height:64px;border-radius:50%;display:grid;place-content:center;text-align:center;font:10px/1.2 "DM Mono";transform:rotate(-12deg)}.side-note{position:absolute;right:-5%;bottom:15%;font:10px/1.5 "DM Mono";letter-spacing:1px;transform:rotate(7deg)}.hero-index{position:absolute;bottom:25px;left:4.5%;font:10px "DM Mono";color:#777}.ticker{overflow:hidden;background:var(--blue);color:white;padding:15px 0;white-space:nowrap;font-size:13px;letter-spacing:2px}.ticker div{min-width:max-content;animation:marquee 28s linear infinite}.ticker span{color:var(--acid);padding:0 35px}@keyframes marquee{to{transform:translateX(-35%)}}.collections{padding:110px 8% 100px}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:55px}.section-head h2,.manifesto h2,.newsletter h2{font-size:clamp(48px,6vw,78px);line-height:.92;letter-spacing:-4px;margin:20px 0 0}.section-intro{max-width:280px;font-size:14px;line-height:1.6;color:#555;margin-bottom:5px}.collection-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.collection-card{min-width:0}.card-art{height:390px;position:relative;overflow:hidden;display:block}.art-one{background:#f0d7bd}.sun{position:absolute;width:100px;height:100px;background:var(--red);border-radius:50%;right:16%;top:13%}.plant-stem{position:absolute;left:50%;top:28%;height:48%;width:12px;background:var(--blue);transform:rotate(5deg);border-radius:10px}.plant-leaf{position:absolute;width:135px;height:90px;border-radius:100% 0 100% 0;background:var(--acid);border:7px solid var(--blue)}.leaf-a{left:16%;top:43%;transform:rotate(18deg)}.leaf-b{right:10%;top:34%;transform:rotate(195deg);background:var(--red)}.pot{position:absolute;bottom:9%;left:34%;width:34%;height:25%;background:var(--yellow);border:7px solid var(--blue);clip-path:polygon(0 0,100% 0,83% 100%,17% 100%)}.tiny-star{position:absolute;top:18%;left:16%;font-size:48px;color:var(--blue)}.art-two{background:#d9d5ef}.big-circle{position:absolute;width:230px;height:230px;border-radius:50%;background:var(--yellow);right:-20px;top:40px}.figure-head{position:absolute;width:100px;height:115px;border-radius:48% 48% 45% 45%;background:var(--red);border:7px solid var(--blue);left:32%;top:22%}.figure-body{position:absolute;width:180px;height:190px;background:var(--blue);border-radius:90px 90px 15px 15px;left:22%;bottom:-30px}.book{position:absolute;width:150px;height:100px;background:var(--acid);border:7px solid var(--ink);left:47%;top:55%;transform:rotate(-13deg);z-index:2}.bird{position:absolute;color:var(--red);font-size:48px;z-index:3}.bird-a{top:12%;left:12%}.bird-b{right:12%;bottom:20%;font-size:28px}.art-three{background:#c8e1d8}.shape-a{position:absolute;width:190px;height:190px;border-radius:50%;background:var(--blue);top:10%;left:10%}.shape-b{position:absolute;width:160px;height:250px;background:var(--red);border-radius:100% 0 100% 0;right:8%;top:15%;transform:rotate(25deg)}.shape-c{position:absolute;width:130px;height:130px;background:var(--yellow);bottom:9%;left:35%;transform:rotate(45deg)}.shape-d{position:absolute;width:85px;height:85px;border:10px solid var(--ink);border-radius:50%;right:14%;bottom:10%}.shape-e{position:absolute;width:14px;height:220px;background:var(--ink);left:49%;top:22%;transform:rotate(-35deg)}.card-meta{display:flex;justify-content:space-between;margin-top:17px;font:9px "DM Mono";letter-spacing:.7px}.card-meta span:last-child{color:#777}.collection-card h3{font-size:31px;line-height:.95;letter-spacing:-1.5px;margin:17px 0 8px}.collection-card p{font-size:13px;color:#555}.status-note{font:10px "DM Mono";color:#68655e;margin-top:45px}.manifesto{background:var(--blue);color:white;padding:100px 12%;display:grid;grid-template-columns:180px 1fr;gap:30px}.manifesto-mark{font-size:120px;color:var(--acid);line-height:1}.manifesto h2{font-size:clamp(42px,5.5vw,70px)}.manifesto-text{max-width:560px;font-size:16px;line-height:1.7;color:#e4e8f5;margin:30px 0}.text-link{display:inline-block;color:var(--acid);text-decoration:none;border-bottom:1px solid var(--acid);padding-bottom:7px;font-size:13px}.newsletter{text-align:center;padding:100px 20px}.newsletter h2{margin:22px 0}.newsletter>p:not(.eyebrow){color:#555;font-size:14px}.button-link{display:inline-block;margin-top:22px;background:var(--red);color:#fff;padding:15px 22px;border-radius:30px;text-decoration:none;font-size:13px}footer{border-top:1px solid var(--line);padding:25px 4.5%;display:flex;justify-content:space-between;align-items:center;font:9px "DM Mono";letter-spacing:1px}.footer-mark{font:700 16px "Space Grotesk";letter-spacing:-1px;text-decoration:none;color:var(--ink)}@media(max-width:760px){.topline span:last-child{display:none}.site-header{height:82px}.site-header nav{gap:13px}.site-header nav a{font-size:11px}.site-header nav a:nth-child(2){display:none}.site-header nav .nav-contact{padding:10px}.hero{padding:55px 7% 70px;grid-template-columns:1fr;gap:25px}.hero h1{font-size:76px;letter-spacing:-6px;margin-top:28px}.hero-art{width:86%;margin:0 auto}.side-note{right:-9%}.collections{padding:75px 7%}.section-head{display:block}.section-intro{margin-top:25px}.collection-grid{grid-template-columns:1fr;gap:45px}.card-art{height:430px}.manifesto{padding:75px 8%;grid-template-columns:1fr;gap:10px}.manifesto-mark{font-size:70px}.manifesto h2{font-size:48px}.newsletter{padding:75px 8%}footer{gap:15px;flex-wrap:wrap}footer span:nth-child(2){display:none}}
+
+/* PITOMBA ATÔMICA — paleta cromática de referência */
+:root{
+  --paper:#0875D1;
+  --ink:#101820;
+  --blue:#0875D1;
+  --red:#EFC5B8;
+  --acid:#E6F0C6;
+  --yellow:#FFE500;
+  --green:#00A878;
+  --peach:#EFC5B8;
+  --mint:#E6F0C6;
+  --line:rgba(16,24,32,.42);
+}
+body{background:var(--blue);color:var(--ink)}
+.topline,.site-header{background:var(--blue);color:var(--ink);border-color:var(--line)}
+.wordmark,.site-header nav a,.footer-mark{color:var(--ink)}
+.wordmark span{color:var(--yellow)}
+.site-header nav .nav-contact,.round-link{border-color:var(--ink);color:var(--ink)}
+.hero{background:var(--blue)}
+.hero-text,.section-intro,.collection-card p,.newsletter>p:not(.eyebrow){color:var(--ink)}
+.eyebrow,.hero-index,.card-meta,.status-note{color:var(--ink)}
+.dot{background:var(--yellow)}
+.art-stamp{background:var(--yellow);color:var(--ink)}
+.ticker{background:var(--ink);color:var(--yellow)}
+.ticker span{color:var(--green)}
+.collections{background:var(--blue)}
+.card-art{border:2px solid var(--ink)}
+.art-one{background:var(--peach)}
+.sun{background:var(--yellow)}
+.plant-stem{background:var(--green)}
+.plant-leaf{background:var(--mint);border-color:var(--ink)}
+.leaf-b{background:var(--green)}
+.pot{background:var(--yellow);border-color:var(--ink)}
+.tiny-star{color:var(--ink)}
+.art-two{background:var(--mint)}
+.big-circle{background:var(--yellow)}
+.figure-head{background:var(--peach);border-color:var(--ink)}
+.figure-body{background:var(--green)}
+.book{background:var(--yellow);border-color:var(--ink)}
+.bird{color:var(--ink)}
+.art-three{background:var(--peach)}
+.shape-a{background:var(--green)}
+.shape-b{background:var(--yellow)}
+.shape-c{background:var(--mint)}
+.shape-d,.shape-e{border-color:var(--ink);background:var(--ink)}
+.card-meta span:last-child{color:var(--ink)}
+.status-note{background:var(--yellow);padding:14px 16px;display:inline-block;line-height:1.6}
+.manifesto{background:var(--green);color:var(--ink)}
+.manifesto-mark{color:var(--yellow)}
+.manifesto-text{color:var(--ink)}
+.manifesto .text-link{color:var(--ink);border-color:var(--ink)}
+.newsletter{background:var(--peach);color:var(--ink)}
+.button-link{background:var(--yellow);color:var(--ink);border:1px solid var(--ink)}
+footer{background:var(--blue);border-color:var(--line);color:var(--ink)}
+@media(max-width:760px){
+  .site-header nav .nav-contact{background:var(--yellow)}
+  .hero{padding-top:48px}
+}
