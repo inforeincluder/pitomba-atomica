@@ -12,3 +12,10 @@
 .page-note{background:var(--yellow);color:var(--ink);border:1px solid var(--ink)}
 .page-footer{background:var(--blue);border-color:var(--line);color:var(--ink)}
 .page-footer a{color:var(--ink)}
+
+
+/* Contraste acessível nas páginas editoriais sobre o fundo azul */
+.page-shell{color:#fff}
+.breadcrumbs,.breadcrumbs a,.page-label,.page-title,.page-lede,.page-section h2,.page-section p,.page-section li,.page-nav,.page-nav a{color:#fff}
+.page-note{color:#101820}
+.page-footer,.page-footer a{color:#fff}
