@@ -58,3 +58,15 @@ footer{background:var(--blue);border-color:var(--line);color:var(--ink)}
   .site-header nav .nav-contact{background:var(--yellow)}
   .hero{padding-top:48px}
 }
+
+
+/* Contraste acessível nas áreas azuis: branco sobre azul, tinta escura nas superfícies claras */
+.topline,.site-header,.site-header nav a,.wordmark,.footer-mark{color:#fff}
+.wordmark span{color:var(--yellow)}
+.site-header nav .nav-contact{color:var(--ink);background:var(--yellow)}
+.hero,.collections{color:#fff}
+.hero .eyebrow,.hero-index,.side-note,.hero-text,.section-head .eyebrow,.section-intro,
+.collection-card h3,.collection-card p,.card-meta,.status-note{color:#fff}
+.hero .round-link{color:#fff;border-color:#fff}
+.collection-card .card-meta span:last-child{color:#fff}
+.status-note{color:var(--ink);background:var(--yellow)}
