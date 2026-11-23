@@ -57,3 +57,28 @@ Fontes:
 - **Confiança média** para os sinais amplos de consumo e descoberta: dados secundários, categorias amplas e declarações de plataformas.
 - **Confiança média** para preços e serviços dos fornecedores: páginas oficiais consultadas, sujeitos a alteração e confirmação comercial.
 - **Confiança baixa** para estimar demanda e margem de pôsteres autorais: ainda não há dados próprios de conversão, custo de aquisição ou pedidos.
+
+
+---
+
+## Atualização — 23/11/2026
+
+Pesquisa adicional em fontes oficiais. Relatório completo: [radar/relatorio-2026-11-23.md](relatorio-2026-11-23.md).
+
+### Novas evidências
+- Pinterest Predicts 2026 registra sinais de interesse em decoração lúdica (+130% para decoração circense), Afrodecor (+220%) e Neo déco; são tendências de busca, não vendas de pôsteres. Fonte: https://newsroom.pinterest.com/pt-br/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/
+- PosterOn detalhou programa white-label com loja do parceiro, pagamentos recebidos pelo parceiro e produção/envio pela fábrica. Condições financeiras ainda não publicadas: https://posteron.com.br/print-on-demand/
+- BR Posters apresenta ArtPosters para criação com IA, mockups, preparação e envio de obras à curadoria; plano obrigatório e remuneração não publicada: https://brposters.com.br/venda-sua-arte
+- Uma Penca confirma pôsteres A5–A3 em papel fotográfico 260 g, sob demanda, com envio em tubete; preços varejistas observados em lojas hospedadas entre cerca de R$ 32,80 e R$ 54,90. Fonte: https://umapenca.com/termos-condicoes/produtos
+- Urban Arts é referência adicional de posicionamento autoral; exemplos de preços em coleções consultadas entre R$ 99 e R$ 219: https://www.urbanarts.com.br/colecoes/nature-mood
+- Printile mantém Starter gratuito, Plus R$ 59,90/mês e Pro R$ 99,90/mês na página oficial consultada: https://printile.com.br/
+
+### Decisões
+- Manter portfólio próprio como centro.
+- Priorizar Pinterest e SEO de imagens.
+- Manter Printile como primeiro teste de baixo custo e elevar PosterOn à primeira cotação white-label.
+- Adicionar Uma Penca como alternativa econômica, sem homologação.
+- Não aderir ao ArtPosters nem contratar planos ou serviços sem conhecer remuneração, taxas e amostras.
+
+### Limitações
+Preços “a partir de” não são comparáveis sem igualar tamanho, papel, moldura e frete. Ainda faltam cotações de produção, amostras físicas e dados próprios de conversão.
